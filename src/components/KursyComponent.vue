@@ -16,14 +16,14 @@
         </table>
         <br>
     </div>
-    <div v-else>loading data</div>
+    <div v-else>loading data...</div>
 </template>
 <script>
 export default {
     name: 'KursyComponent',
     data() {
         return {
-            items: null
+            items: null,
         }
     },
     mounted() {
@@ -48,6 +48,8 @@ div{
 td:hover{
     background-color: rgb(51, 44, 44);
     color: rgb(207, 192, 192);
-    cursor: crosshair;
+}
+table:hover{
+    cursor: none;
 }
 </style>
