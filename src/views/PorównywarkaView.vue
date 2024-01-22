@@ -7,11 +7,10 @@
 <script>
 import PorównywarkaComponent from "../components/PorównywarkaComponent.vue";
 
-
 export default {
-  name: 'PorównywarkaView',
+  name: "PorównywarkaView",
   components: {
-    PorównywarkaComponent
-  }
-}
+    PorównywarkaComponent,
+  },
+};
 </script>
